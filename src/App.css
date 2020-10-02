@@ -39,3 +39,9 @@
   background-color: cornflowerblue;
   border-radius: 8px;
 }
+
+.search {
+  position: absolute;
+  top: 0;
+  height: 15vh;
+}

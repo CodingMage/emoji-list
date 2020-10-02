@@ -3,11 +3,13 @@ import './App.css';
 import EmojiFetcher from './Components/EmojiFetcher';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import { Link } from 'react-router-dom';
+import EmojiSearch from './Components/EmojiSearch';
 
 function App() {
   return (
     <div className="App">
       <div className="wraper">
+        <EmojiSearch />
 
         <Router>
 
